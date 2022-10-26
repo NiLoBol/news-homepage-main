@@ -20,17 +20,30 @@
   <main>
     <div class="navbar mnav">
       <div class="container-fluid container">
-        <img class="m-50" src="assets/images/logo.svg" alt="logo">
-        <a class="nav-link mx-4 active onpc csoh" aria-current="page" href="#">Home</a>
-        <a class="nav-link mx-4 active onpc csoh" aria-current="page" href="#">New</a>
-        <a class="nav-link mx-4 active onpc csoh" aria-current="page" href="#">Popular</a>
-        <a class="nav-link mx-4 active onpc csoh" aria-current="page" href="#">Trending</a>
-        <a class="nav-link mx-4 active onpc csoh" aria-current="page" href="#">Categories</a>
-        <button class="botton-menu onmo" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        <div class="row w-100">
+          <div class="col-xl-7 col-md-7 col-lg-7 col-7 ">
+            <img class="m-50 logo" src="assets/images/logo.svg" alt="logo">
+          </div>
+          <div class="col-5 onpc  display-flex">
+            <a class="nav-link  active  csoh cdb display-inline ms-4 ps-1" aria-current="page" href="#">Home</a>
+          
+            <a class="nav-link  active  csoh cdb display-inline ms-4 ps-1" aria-current="page" href="#">New</a>
+          
+            <a class="nav-link  active  csoh cdb display-inline ms-4 ps-1" aria-current="page" href="#">Popular</a>
+          
+            <a class="nav-link  active  csoh cdb display-inline ms-4 ps-1" aria-current="page" href="#">Trending</a>
+          
+            <a class="nav-link  active  csoh cdb display-inline ms-4 ps-1" aria-current="page" href="#">Categories</a>
+          </div>
+          <div class="col-5 onmo">
+            <button class="botton-menu onmo" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar">
           <img src="assets/images/icon-menu.svg" alt="">
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          </div>
+        </div>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
           <div class="offcanvas-header">
             <button type="button" class="botton-menu float-right" data-bs-dismiss="offcanvas" aria-label="Close">
               <img src="assets/images/icon-menu-close.svg" alt="">
@@ -62,12 +75,13 @@
       <div class="row">
         <div class="col-xl-8 col-md-8 col-lg-8 p-3">
           <img id="img-des-mo" class="w-100" src="assets/images/image-web-3-desktop.jpg" alt="">
-          <div class="row m-4 p-2">
+          <div class="row my-4 py-2">
             <div class="col-xl-6 col-md-6  col-lg-6 ">
               <h1>The Bright Future of Web 3.0?</h1>
             </div>
             <div class="col-xl-6 col-md-6  col-lg-6">
-              <p class="my-3">We pe into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+              <p class="my-3 cdb me-4">We pe into the next evolution of the web that claims to put the power of the
+                platforms back into the hands of the
                 people.
                 But is it really fulfilling its promise?
               </p>

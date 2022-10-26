@@ -12,7 +12,10 @@
     src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 a{
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
+}
+body{
+    background-color: var(--Off-white);
 }
 html {
     font-size: 15px;
@@ -55,6 +58,10 @@ hr{
     border: unset;
     background-color: unset;
     float: right;
+}
+.logo{
+    width: 4rem;
+    height: 3rem;
 }
 .navbar>.container,
 .navbar>.container-fluid,
@@ -113,7 +120,9 @@ button.navbar-toggler {
 .cgb{
     color: var(--Grayishblue);
 }
-
+.display-flex{
+    display: flex;
+}
 .cbr{
     color: var(--Verydarkblue);
 }
@@ -128,18 +137,20 @@ button.navbar-toggler {
 .csoh:hover{
     color: var(--Softorange);
 }
-
+.display-inline{
+    display: inline;
+}
 .onmo{
     display: none;
 }
 @media (max-width:1440px) {
     .m-50 {
-        margin-right: calc(48%);
+        margin-right: calc(100% - 50rem);
     }
 }
 @media (max-width:1230px) {
     .m-50 {
-        margin-right: calc(50%);
+        margin-right: 40rem;
     }
     html{
         font-size: 10px;
@@ -165,7 +176,7 @@ button.navbar-toggler {
         display: inline-block;
     }
     .onpc {
-        display: none;
+        display: none !important;
 
     }
     .m-50 {
