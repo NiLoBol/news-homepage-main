@@ -120,8 +120,9 @@ button.navbar-toggler {
 .cgb{
     color: var(--Grayishblue);
 }
-.display-flex{
+.flex-between{
     display: flex;
+    justify-content: space-between;
 }
 .cbr{
     color: var(--Verydarkblue);
